@@ -18,7 +18,7 @@ export default defineAppConfig({
     },
     footer: {
       credits: {
-        enabled: true, // possible value are : true | false
+        enabled: false, // possible value are : true | false
         repository: 'https://www.github.com/nuxt-themes/alpine' // our github repository
       },
       navigation: true, // possible value are : true | false
@@ -26,12 +26,12 @@ export default defineAppConfig({
       message: 'Follow me on' // string that will be displayed in the footer (leave empty or delete to disable)
     },
     socials: {
-      twitter: 'nuxtlabs',
-      instagram: 'atinuxt',
+      twitter: 'mockgee',
+      instagram: 'mockgee',
       linkedin: {
         icon: 'uil:linkedin',
         label: 'LinkedIn',
-        href: 'https://www.linkedin.com/company/nuxtlabs'
+        href: 'https://www.linkedin.com/company/mockgeelabs'
       }
     },
     form: {
